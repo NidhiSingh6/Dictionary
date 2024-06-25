@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    padding: 10px;
+}
+.header{
+    color: purple;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+}
+#input{
+    width: 90%;
+    font-size: 1.2rem;
+    margin: 5px;  
+    padding: 10px;  
+}
+#search{
+    background-color: purple;
+    margin: 5px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+#meaning{
+    margin: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
